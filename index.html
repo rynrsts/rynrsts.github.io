@@ -2,16 +2,494 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	
+	<!-- Social Media -->
+	<meta property="og:url" content="https://rynrsts.github.io" />
+	<meta property="og:type" content="My Portfolio" />
+	<meta property="og:title" content="My Portfolio"/>
+	<meta name="image" property="og:image" content="res/logo.png"/>
+	<meta property="og:description" content="My personal portfolio."/>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="design.css" />
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="res/logo.png">
+	
+	<!-- Icon -->
+	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-a11y="true"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
 </head>
 
 <body>
+	
+	<!-- Navigation -->
+	<nav>
+		<div class="nav-center">
+			<div class="logo">
+				<img src="res/logo_white.png" alt="Logo Image">
+			</div>
+			<div class="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-links">
+				<li>
+					<a href="#">
+						<i class="fas fa-home"></i>&ensp;Home
+					</a>
+				</li>
+				<li>
+					<a href="#education">
+						<i class="fas fa-school"></i>&ensp;Education
+					</a>
+				</li>
+				<li>
+					<a href="#tech-stack">
+						<i class="fas fa-code"></i>&ensp;Tech Stack
+					</a>
+				</li>
+				<li>
+					<a href="#project">
+						<i class="fas fa-project-diagram"></i>&ensp;Project
+					</a>
+				</li>
+			</ul>
+		</div>		
+	</nav>
 
-    <h1>Comming soon!</h1>
-    
+	<!-- Home -->
+	<div class="home">
+		<div class="home-left">
+			<div class="home-left-center">
+				<div class="profile">
+					<div class="logo-name-container">
+						<img class="logo-name" src="res/logo_name.png" alt="Logo Image">
+					</div>
+					<div class="name">Ryan Aristosa</div>
+					<div class="bio">
+						Bachelor of Science in Information Technology Student | Community Mentor at SurPath Hub | 
+						Member at EddieHub | Aspiring Full Stack Developer
+					</div>
+				</div>				
+				<div class="location">
+					<i class="fas fa-map-marker-alt"></i>
+					Makati, Metro Manila, Philippines
+				</div>
+				<div class="contact">
+					<a class="fab-container facebook" href="https://www.facebook.com/rynrsts" target="_blank">
+						<i class="fab fa-facebook-f"></i>
+					</a>					
+					<a class="fab-container github" href="https://github.com/rynrsts" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+					<a class="fab-container linkedin" href="https://www.linkedin.com/in/ryan-aristosa-a5a869216" target="_blank">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+					<a class="fab-container email" href="mailto: ryanaristosa@outlook.com" target="_blank">
+						<i class="fas fa-envelope"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="home-right">
+			<img src="res/ryan.png" alt="Logo Image">
+		</div>
+	</div>
+
+	<!-- Education -->
+	<div class="education" id="education">
+		<div class="education-title">Education</div>
+
+		<div class="education-timeline">
+			<div class="education-container left">
+				<div class="education-content">
+					<b>2006 – 2012</b> <br><br>
+					<p>Graduated with Honor</p>
+					<p>Hen. Pio del Pilar Elementary School</p>
+				</div>
+			</div>
+			<div class="education-container right">
+				<div class="education-content">
+					<b>2012 – 2016</b> <br><br>
+					<p>Graduated as 3rd Honorable Mention</p>	
+					<p>San Isidro National High School</p>
+				</div>
+			</div>
+			<div class="education-container left">
+				<div class="education-content">
+					<b>2016 – 2018</b> <br><br>
+					<p>Graduated with Honor</p>
+					<p>TVL – Information & Communications Technology</p>
+					<p>Computer Programming – Java & .NET Technology</p>
+					<p>IT in Mobile App & Web Development (MAWD)</p>
+					<p>STI College Makati</p>
+				</div>
+			</div>
+			<div class="education-container right">
+				<div class="education-content">
+					<b>2018 – Present</b> <br><br>
+					<p>Consistent Honor Student</p>
+					<p>Bachelor of Science in Information Technology</p>
+					<p>STI College Makati, and STI College Pasay-EDSA</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Training -->
+	<div class="training-seminar">
+		<div class="training">
+			<div class="t-s-title">Training</div>
+
+			<ul class="t-s-cards">
+				<li class="t-s-cards-item">
+					<div class="t-s-card training-card">
+						<div class="t-s-card-content training-card-content">
+							<h2 class="t-s-card-title">Web Development</h2>
+							<p class="t-s-card-date">(April 25 – May 16, 2018)</p>
+							<p class="t-s-card-text">TESDA Training for Work Scholarship Program Scholarship Grant</p>
+							<p class="t-s-card-text">Informatics Computer Institute, Ayala Ave, Makati City</p>
+						</div>
+					</div>
+				</li>
+				<li class="t-s-cards-item">
+					<div class="t-s-card training-card">
+						<div class="t-s-card-content training-card-content">
+							<h2 class="t-s-card-title">Creative Web Design</h2>
+							<p class="t-s-card-date">(April 4 – 19, 2018)</p>
+							<p class="t-s-card-text">TESDA Training for Work Scholarship Program Scholarship Grant</p>
+							<p class="t-s-card-text">Informatics Computer Institute, Ayala Ave, Makati City</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="seminar">
+			<div class="t-s-title">Seminar</div>
+
+			<ul class="t-s-cards">
+				<li class="t-s-cards-item">
+					<div class="t-s-card seminar-card">
+						<div class="t-s-card-content">
+							<h2 class="t-s-card-title">Let's Git started with GitHub using Visual Studio Code</h2>
+							<p class="t-s-card-date">(July 24, 2021)</p>
+							<p class="t-s-card-text">Ma. Nikka Sapallida Herrera</p>
+							<p class="t-s-card-text">Microsoft Learn Student Ambassador</p>
+						</div>
+					</div>
+				</li>
+				<li class="t-s-cards-item">
+					<div class="t-s-card seminar-card">
+						<div class="t-s-card-content">
+							<h2 class="t-s-card-title">Using Git & GitHub to launch your professional career</h2>
+							<p class="t-s-card-date">(June 26, 2021)</p>
+							<p class="t-s-card-text">Vincent Villafuerte</p>
+							<p class="t-s-card-text">Microsoft Learn Student Ambassador</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Affiliation -->
+	<div class="affiliation">
+		<div class="affiliation-title">Affiliation and Role</div>
+
+		<div class="affiliation-container">
+			<ul class="affiliation-cards">
+				<li class="affiliation-cards-item">
+					<a class="affiliation-card" href="https://surpathhub.github.io/" target="_blank">
+						<div class="affiliation-card-image"><img src="res/org/surpath_hub.png"></div>
+						<div class="affiliation-card-content">
+							<h2 class="affiliation-card-title">Mentor</h2>
+							<p class="affiliation-card-date">(July 2021 – Present)</p>
+							<p class="affiliation-card-text">SurPath Hub</p>
+							<p class="affiliation-card-text">
+								Open source community for Filipino students and career shifters
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="affiliation-cards-item">
+					<a class="affiliation-card" href="https://www.eddiehub.org/" target="_blank">
+						<div class="affiliation-card-image"><img src="res/org/eddiehub.png"></div>
+						<div class="affiliation-card-content">
+							<h2 class="affiliation-card-title">Member</h2>
+							<p class="affiliation-card-date">(July 2021 – Present)</p>
+							<p class="affiliation-card-text">EddieHub</p>
+							<p class="affiliation-card-text">
+								Open source community for everyone (global)
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="affiliation-cards-item">
+					<a class="affiliation-card">
+						<div class="affiliation-card-content">
+							<h2 class="affiliation-card-title">Vice President</h2>
+							<p class="affiliation-card-date">(A.Y. 2017 – 2018)</p>
+							<p class="affiliation-card-text">Supreme Student Government (SSG)</p>
+							<p class="affiliation-card-text">STI College Makati</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Tech Stack -->
+	<div class="tech-stack" id="tech-stack">
+		<div class="tech-stack-title">Technology Stack</div>
+
+		<div class="tech-stack-container">
+			<div>
+				<i class="devicon-java-plain"></i>
+				<p>Java</p>
+			</div>
+			<div>
+				<i class="devicon-csharp-plain"></i>
+				<p>C#</p>
+			</div>
+			<div>
+				<i class="devicon-html5-plain"></i>
+				<p>HTML5</p>
+			</div>
+			<div>
+				<i class="devicon-css3-plain"></i>
+				<p>CSS3</p>
+			</div>
+			<div>
+				<i class="devicon-javascript-plain"></i>
+				<p>JavaScript</p>
+			</div>
+			<div>
+				<i class="devicon-php-plain"></i>
+				<p>PHP</p>
+			</div>
+			<div>
+				<i class="devicon-kotlin-plain"></i>
+				<p>Kotlin</p>
+			</div>
+			<div>
+				<i class="devicon-dot-net-plain"></i>
+				<p>.NET</p>
+			</div>
+			<div>
+				<i class="devicon-mysql-plain"></i>
+				<p>MySql</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Project -->
+	<div class="project" id="project">
+		<div class="project-container">
+			<div class="project-title">Project</div>
+
+			<ul class="cards">
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="res/ss/sp.png"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">SurveyPortal</h2>
+								<p class="card_text">
+									Web survey system, that focuses on the server-side
+								</p>
+								<p class="card_text">
+									Project for Web Programming 5 (SQL/ Intro to ASP.Net)
+								</p>
+								<p class="card_text">
+									Co-developer: Edward Jocel Parrucho
+								</p>
+							</div>
+							<div>
+								<a href="https://github.com/rynrsts/SurveyPortal" target="_blank">
+									<button class="btn card_btn">View Open Source</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="res/ss/geu.PNG"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">Point of Sales (POS) – Gulp 'Em Up</h2>
+								<p class="card_text">
+									Point of sales system for the food restaurant Gulp 'Em Up
+								</p>									
+								<p class="card_text">
+									Project for Work Immersion – Practicum Type
+								</p>
+								<p class="card_text">
+									Co-developer: Edward Jocel Parrucho
+								</p>
+							</div>
+							<div>
+								<a href="https://github.com/rynrsts/GulpEmUp" target="_blank">
+									<button class="btn card_btn">View Open Source</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="res/ss/kj.png"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">Kickin' Joy</h2>
+								<p class="card_text">
+									Website for KickinJoy (fabrication), that shows Vans shoes
+								</p>								
+								<p class="card_text">
+									Web design project under the Creative Web Design training
+								</p>
+							</div>
+							<div>
+								<a href="https://github.com/rynrsts/KickinJoy" target="_blank">
+									<button class="btn card_btn">View Open Source</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img src="res/ss/sinhs.PNG"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">SINHS</h2>
+								<p class="card_text">
+									Website for SINHS, that can show updates and do reservation
+								</p>								
+								<p class="card_text">
+									Web project under the Web Development training
+								</p>
+							</div>
+							<div>
+								<a href="https://github.com/rynrsts/SINHS" target="_blank">
+									<button class="btn card_btn">View Open Source</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<!--<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img alt="TRSOH" src="res/ss/trsoh.png"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">The Rising Shield of Hero</h2>
+								<p class="card_text">
+									Role-playing game inspired from the anime The Rising Shield of Hero
+								</p>
+								<p class="card_text">
+									Project for Human-Computer Interaction
+								</p>
+								<p class="card_text">
+									Character Designer: Julie Ann Reodique
+								</p>
+							</div>
+							<div>
+								<button class="btn card_btn">Will be uploaded soon</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="cards_item">
+					<div class="card">
+						<div class="card_image"><img alt="Healthy Roasters" src="res/ss/hr.png"></div>
+						<div class="card_content">
+							<div>
+								<h2 class="card_title">Point of Sales (POS) - Healthy Roasters</h2>
+								<p class="card_text">
+									Point of sales system for HealthyRoasters (fabrication)
+								</p>
+								<p class="card_text">
+									Project for Technopreneurship 
+								</p>
+								<p class="card_text">
+									Co-developer: Edward Jocel Parrucho
+								</p>
+							</div>
+							<div>
+								<button class="btn card_btn">Will be uploaded soon</button>
+							</div>
+						</div>
+					</div>
+				</li>-->
+			</ul>
+		</div>
+	</div>
+
+	<!-- Mini Project -->
+	<div class="mini-project">
+		<div class="mini-project-title">Mini Project and Other Program</div>
+
+		<div class="mini-project-container">
+			<ul class="m-p-cards">
+				<li class="m-p-cards-item">
+					<a class="m-p-card" href="https://github.com/rynrsts/food-ordering-system" target="_blank">
+						<div class="m-p-card-content">
+							<h2 class="m-p-card-title">Food Ordering System</h2>
+							<p class="m-p-card-text">Command line food ordering system</p>
+						</div>
+					</a>
+				</li>
+				<li class="m-p-cards-item">
+					<a class="m-p-card" href="https://github.com/rynrsts/reviewer-system" target="_blank">
+						<div class="m-p-card-content">
+							<h2 class="m-p-card-title">RBA Review Center</h2>
+							<p class="m-p-card-text">Mini reviewer system</p>
+						</div>
+					</a>
+				</li>
+				<li class="m-p-cards-item">
+					<a class="m-p-card" href="https://github.com/rynrsts/jeep-and-bus" target="_blank">
+						<div class="m-p-card-content">
+							<h2 class="m-p-card-title">RBA Vehicles Center</h2>
+							<p class="m-p-card-text">Jeep and bus transactions</p>
+						</div>
+					</a>
+				</li>
+				<li class="m-p-cards-item">
+					<a class="m-p-card" href="https://github.com/rynrsts/kids-game" target="_blank">
+						<div class="m-p-card-content">
+							<h2 class="m-p-card-title">Shapes Game</h2>
+							<p class="m-p-card-text">Game of naming a shape for kids</p>
+						</div>
+					</a>
+				</li>
+				<li class="m-p-cards-item">
+					<a class="m-p-card program-card" href="https://github.com/rynrsts/Programs" target="_blank">
+						<div class="m-p-card-content">
+							<h2 class="m-p-card-title">Complete list of programs in GitHub</h2>
+							<p class="m-p-card-text">Click to view open source</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		Copyright &copy; 2021 rynrsts
+	</footer>
+
+	<!-- JavaScript -->
+	<script src="function.js"></script>
+
 </body>
 
 </html>
