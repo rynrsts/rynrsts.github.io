@@ -22,4 +22,3 @@ Personal website
 - CSS3
 - JavaScript
 - Any text editor (e.g. VS Code, Sublime)
-- 
