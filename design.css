@@ -291,7 +291,6 @@ nav {
 
 .fab-container:hover {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	opacity: 90%;
 	transform: scale(1.1);
 	transition-duration: 0.2s;
 }
@@ -852,6 +851,12 @@ nav {
 	transition-duration: 0.3s;
 }
 
+.project-coming-soon {
+	font-size: 15px;
+	margin-top: 30px;
+	text-align: center;
+}
+
 /* Styling for small screen */
 
 @media (max-width: 900px) {
@@ -934,6 +939,12 @@ nav {
 	margin-top: 14px;
 }
 
+.mini-project-coming-soon {
+	font-size: 15px;
+	margin-top: 30px;
+	text-align: center;
+}
+
 @media (max-width: 900px) {
 	
 	.m-p-cards-item {
@@ -969,4 +980,9 @@ footer {
 	justify-content: center;
 	margin: auto;
 	width: 100%;
+}
+
+footer a {
+	color: #F7F7F7;
+	text-decoration: none;
 }
