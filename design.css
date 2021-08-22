@@ -564,43 +564,39 @@ nav {
 	max-width: 1450px;
 }
 
-.training, .seminar {
-	width: 50%;
+.training-seminar-container {
+	width: 100%;
 }
 
-.c-i-training, .c-i-seminar {
-	width: 50%;
+.c-i-training-seminar {
+	width: 25%;
 }
 
-.c-training, .c-seminar {
+.c-training-seminar-blue, .c-training-seminar-yellow {
 	border-radius: 8px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 	flex-direction: column;
 }
 
-.c-training {
+.c-training-seminar-blue {
 	background-color: #C2BBF0;
 }
 
-.c-seminar {
+.c-training-seminar-yellow {
 	background-color: #F4E285;
 }
 
 @media (max-width: 900px) {
 
-	.c-i-training, .c-i-seminar {
-		width: 100%;
+	.c-i-training-seminar {
+		width: 50%;
 	}
 
 }
 
 @media (max-width: 600px) {
 
-	.training-seminar {
-		display: block;
-	}
-
-	.training, .seminar {
+	.c-i-training-seminar {
 		width: 100%;
 	}
 	
