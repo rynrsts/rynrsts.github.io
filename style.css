@@ -661,10 +661,14 @@ nav {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: auto;
-	max-width: 600px;
+	max-width: 700px;
 }
 
-.icon {	
+.icon {
+	background-color: var(--earthborn-bugle);
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+	padding: 15px;
 	margin: 15px 10px 5px 10px;
 }
 
@@ -782,7 +786,11 @@ nav {
 	max-width: 1150px;
 }
 
-.c-i-mini-project {
+.c-i-mini-project-1 {
+	width: 33.3333%;
+}
+
+.c-i-mini-project-2 {
 	width: 25%;
 }
 
@@ -796,7 +804,7 @@ nav {
 	transition-duration: 0.4s;
 }
 
-.other-program {
+.blue-card {
 	background-color: #7DC8F8;
 }
 
@@ -815,7 +823,7 @@ nav {
 
 @media (max-width: 900px) {
 	
-	.c-i-mini-project {
+	.c-i-mini-project-2 {
 		width: 33.3333%;
 	}
 
@@ -823,7 +831,7 @@ nav {
 
 @media (max-width: 750px) {
 
-	.c-i-mini-project {
+	.c-i-mini-project-2 {
 		width: 50%;
 	}
 
@@ -831,7 +839,7 @@ nav {
 
 @media (max-width: 600px) {
 
-	.c-i-mini-project {
+	.c-i-mini-project-2 {
 		width: 100%;
 	}
 
