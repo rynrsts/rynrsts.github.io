@@ -829,6 +829,14 @@ nav {
 
 }
 
+@media (max-width: 800px) {
+
+	.c-i-mini-project-1 {
+		width: 50%;
+	}
+
+}
+
 @media (max-width: 750px) {
 
 	.c-i-mini-project-2 {
@@ -838,6 +846,10 @@ nav {
 }
 
 @media (max-width: 600px) {
+
+	.c-i-mini-project-1 {
+		width: 100%;
+	}
 
 	.c-i-mini-project-2 {
 		width: 100%;
