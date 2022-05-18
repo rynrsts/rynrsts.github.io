@@ -162,7 +162,7 @@ nav ul li a:hover::before {
 
 /* Small Screens */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 922px) {
     nav {
         position: fixed;
         z-index: 3;
@@ -217,6 +217,10 @@ nav ul li a:hover::before {
 
     nav ul li:nth-child(4) {
         transition: all 0.4s ease 0.5s;
+    }
+
+    nav ul li:nth-child(5) {
+        transition: all 0.4s ease 0.6s;
     }
 
     nav li.nav-fade {
@@ -303,6 +307,179 @@ nav ul li a:hover::before {
 		margin: 0;
 		margin-top: 50px;
 	}
+}
+
+/* Strengths */
+
+/* Icon */
+
+.icon-container {
+    border-radius: 50%;
+    color: var(--earthborn-bugle);
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+}
+
+.web-icon {
+    background-color: #E9858D;
+}
+
+.computer-icon {
+    background-color: #73C9EA;
+}
+
+.design-icon {
+    background-color: #B881C2;
+}
+
+.mobile-icon {
+    background-color: #F8BD95;
+}
+
+/* Tech Stacks */
+
+/* Icons */
+
+.tech-icon-container {
+	border-radius: 9px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    height: 150px;
+    width: 150px;
+}
+
+.tech-icon-container i {
+	font-size: 80px;
+}
+
+.tech-icon-container div {
+    font-size: 15px;
+}
+
+/* Projects */
+
+.projects {
+    background-color: var(--dark-cyan-blue);
+    color: var(--earthborn-bugle);
+}
+
+/* Cards */
+
+.p-card-container {
+    display: flex;
+    width: 33.33%;
+}
+
+.card-cyan {
+    background-color: var(--cyan);
+    border: 0;
+    border-radius: 9px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+	transition-duration: 0.4s;
+}
+
+.card-cyan:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+	transform: scale(1.04);
+	transition-duration: 0.4s;
+}
+
+/* View Button */
+
+.view-open-source {
+    border: 1px solid var(--earthborn-bugle);
+	border-radius: 8px;
+    color: var(--earthborn-bugle);
+	cursor: pointer;
+	display: block;
+}
+
+.view-open-source:hover {
+    background-color: var(--earthborn-bugle);
+    color: var(--cyan);
+}
+
+/* Small Screens */
+
+@media screen and (max-width: 992px) {
+    .p-card-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .p-card-container {
+        width: 100%;
+    }
+}
+
+/* Other Programs */
+
+/* Cards */
+
+.op1-card-container {
+    display: flex;
+    width: 33.33%;
+}
+
+.op2-card-container {
+    display: flex;
+    width: 25%;
+}
+
+.op1-card, 
+.op2-card {
+    border: 0;
+    border-radius: 9px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    color: var(--dark-cyan-blue);
+	transition-duration: 0.4s;
+}
+
+.op1-card:hover, 
+.op2-card:hover {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: var(--dark-cyan-blue);
+	cursor: pointer;
+	transform: scale(1.05);
+	transition-duration: 0.4s;
+}
+
+.op1-card {
+    background-color: var(--medium-light-cyan-blue);
+}
+
+.op2-card {
+    background-color: var(--light-green-cyan);
+}
+
+/* Small Screens */
+
+@media screen and (max-width: 992px) {
+    .op2-card-container {
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .op1-card-container {
+        width: 50%;
+    }
+
+    .op2-card-container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .op1-card-container {
+        width: 100%;
+    }
+
+    .op2-card-container {
+        width: 100%;
+    }
 }
 
 /* Education */
@@ -477,179 +654,6 @@ nav ul li a:hover::before {
 
 @media screen and (max-width: 576px) {
     .nse-card-container {
-        width: 100%;
-    }
-}
-
-/* Strengths */
-
-/* Icon */
-
-.icon-container {
-    border-radius: 50%;
-    color: var(--earthborn-bugle);
-    font-size: 35px;
-    height: 100px;
-    width: 100px;
-}
-
-.web-icon {
-    background-color: #E9858D;
-}
-
-.computer-icon {
-    background-color: #73C9EA;
-}
-
-.design-icon {
-    background-color: #B881C2;
-}
-
-.mobile-icon {
-    background-color: #F8BD95;
-}
-
-/* Tech Stacks */
-
-/* Icons */
-
-.tech-icon-container {
-	border-radius: 9px;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    height: 150px;
-    width: 150px;
-}
-
-.tech-icon-container i {
-	font-size: 80px;
-}
-
-.tech-icon-container div {
-    font-size: 15px;
-}
-
-/* Projects */
-
-.projects {
-    background-color: var(--dark-cyan-blue);
-    color: var(--earthborn-bugle);
-}
-
-/* Cards */
-
-.p-card-container {
-    display: flex;
-    width: 33.33%;
-}
-
-.card-cyan {
-    background-color: var(--cyan);
-    border: 0;
-    border-radius: 9px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-	transition-duration: 0.4s;
-}
-
-.card-cyan:hover {
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-	transform: scale(1.04);
-	transition-duration: 0.4s;
-}
-
-/* View Button */
-
-.view-open-source {
-    border: 1px solid var(--earthborn-bugle);
-	border-radius: 8px;
-    color: var(--earthborn-bugle);
-	cursor: pointer;
-	display: block;
-}
-
-.view-open-source:hover {
-    background-color: var(--earthborn-bugle);
-    color: var(--cyan);
-}
-
-/* Small Screens */
-
-@media screen and (max-width: 992px) {
-    .p-card-container {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .p-card-container {
-        width: 100%;
-    }
-}
-
-/* Other Programs */
-
-/* Cards */
-
-.op1-card-container {
-    display: flex;
-    width: 33.33%;
-}
-
-.op2-card-container {
-    display: flex;
-    width: 25%;
-}
-
-.op1-card, 
-.op2-card {
-    border: 0;
-    border-radius: 9px;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    color: var(--dark-cyan-blue);
-	transition-duration: 0.4s;
-}
-
-.op1-card:hover, 
-.op2-card:hover {
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    color: var(--dark-cyan-blue);
-	cursor: pointer;
-	transform: scale(1.05);
-	transition-duration: 0.4s;
-}
-
-.op1-card {
-    background-color: var(--medium-light-cyan-blue);
-}
-
-.op2-card {
-    background-color: var(--light-green-cyan);
-}
-
-/* Small Screens */
-
-@media screen and (max-width: 992px) {
-    .op2-card-container {
-        width: 33.33%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .op1-card-container {
-        width: 50%;
-    }
-
-    .op2-card-container {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .op1-card-container {
-        width: 100%;
-    }
-
-    .op2-card-container {
         width: 100%;
     }
 }
