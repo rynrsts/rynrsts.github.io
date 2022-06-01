@@ -302,9 +302,57 @@ nav ul li a:hover::before {
 
 /* Small Screens */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1144x) {
+	.right-section {
+		margin: 50px 0 0 9%;
+	}
+}
+
+@media screen and (max-width: 1117px) {
+	.right-section {
+		margin: 50px 0 0 8%;
+	}
+}
+
+@media screen and (max-width: 1089px) {
+	.right-section {
+		margin: 50px 0 0 7%;
+	}
+}
+
+@media screen and (max-width: 1062px) {
+	.right-section {
+		margin: 50px 0 0 6%;
+	}
+}
+
+@media screen and (max-width: 1034px) {
 	.right-section {
 		margin: 50px 0 0 5%;
+	}
+}
+
+@media screen and (max-width: 1007px) {
+	.right-section {
+		margin: 50px 0 0 4%;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	.right-section {
+		margin: 50px 0 0 3%;
+	}
+}
+
+@media screen and (max-width: 952px) {
+	.right-section {
+		margin: 50px 0 0 2%;
+	}
+}
+
+@media screen and (max-width: 924px) {
+	.right-section {
+		margin: 50px 0 0 1%;
 	}
 }
 
