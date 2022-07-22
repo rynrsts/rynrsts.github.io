@@ -437,6 +437,11 @@ nav ul li a:hover::before {
 	transition-duration: 0.4s;
 }
 
+.tech-used {
+	color: var(--medium-light-yellow);
+	font-size: 15px;
+}
+
 /* View Button */
 
 .view-open-source {
