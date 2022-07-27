@@ -391,20 +391,23 @@ nav ul li a:hover::before {
 
 /* Tech Stacks */
 
-/* Icons */
-
-.tech-icon-container {
+.tech-stack-container {
 	border-radius: 9px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-	height: 120px;
-	width: 120px;
+	/* height: 120px; */
+	/* width: 120px; */
 }
 
-.tech-icon-container i {
-	font-size: 65px;
+.tech-stack-field {
+	border: 3px solid var(--medium-light-cyan-blue);
+	border-radius: 9px;
 }
 
-.tech-icon-container div {
+.tech-stack-field i {
+	font-size: 60px;
+}
+
+.tech-stack-names {
 	font-size: 14px;
 }
 
