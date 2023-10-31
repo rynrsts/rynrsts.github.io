@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rynrsts/rynrsts.github.io/static/css/main.fc7ca167.css",
-    "main.js": "/rynrsts/rynrsts.github.io/static/js/main.99e06bdb.js",
-    "static/media/aws-cloud-quest-cloud-practitioner.png": "/rynrsts/rynrsts.github.io/static/media/aws-cloud-quest-cloud-practitioner.17e20a12710f4ae62426.png",
-    "static/media/microsoft-certified-associate-badge.svg": "/rynrsts/rynrsts.github.io/static/media/microsoft-certified-associate-badge.2b0771425bd47b49917ba320d033a2b7.svg",
-    "index.html": "/rynrsts/rynrsts.github.io/index.html",
-    "main.fc7ca167.css.map": "/rynrsts/rynrsts.github.io/static/css/main.fc7ca167.css.map",
-    "main.99e06bdb.js.map": "/rynrsts/rynrsts.github.io/static/js/main.99e06bdb.js.map"
+    "main.css": "/static/css/main.fc7ca167.css",
+    "main.js": "/static/js/main.6640aa4c.js",
+    "static/media/aws-cloud-quest-cloud-practitioner.png": "/static/media/aws-cloud-quest-cloud-practitioner.17e20a12710f4ae62426.png",
+    "static/media/microsoft-certified-associate-badge.svg": "/static/media/microsoft-certified-associate-badge.2b0771425bd47b49917ba320d033a2b7.svg",
+    "index.html": "/index.html",
+    "main.fc7ca167.css.map": "/static/css/main.fc7ca167.css.map",
+    "main.6640aa4c.js.map": "/static/js/main.6640aa4c.js.map"
   },
   "entrypoints": [
     "static/css/main.fc7ca167.css",
-    "static/js/main.99e06bdb.js"
+    "static/js/main.6640aa4c.js"
   ]
 }
