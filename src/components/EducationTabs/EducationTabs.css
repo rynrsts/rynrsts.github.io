@@ -1,0 +1,9 @@
+.education-div {
+    max-width: 768px;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.education-tab-panel {
+    padding: 24px;
+}
