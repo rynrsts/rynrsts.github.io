@@ -2,6 +2,7 @@ import React from 'react';
 import { Paper, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
+import 'components/AboutDescription/AboutDescription.css';
 import { AboutDescription as aboutDescription } from 'utilities/about';
 
 const CustomTypography = styled(Typography)({
@@ -10,21 +11,28 @@ const CustomTypography = styled(Typography)({
 });
 
 const AboutDescription = () => {
+  const showDescription =
+    aboutDescription.length > 0 &&
+    aboutDescription.map((description, index) =>
+      index === 0 ? (
+        <CustomTypography sx={{ marginTop: '0' }} key={index}>
+          {description}
+        </CustomTypography>
+      ) : (
+        <CustomTypography key={index}>{description}</CustomTypography>
+      )
+    );
+
   return (
     <Paper
       elevation={3}
       sx={{
         maxWidth: '768px',
-        padding: '24px',
         margin: 'auto',
         marginTop: '64px',
       }}
     >
-      <CustomTypography sx={{ marginTop: '0' }}>
-        {aboutDescription[0]}
-      </CustomTypography>
-      <CustomTypography>{aboutDescription[1]}</CustomTypography>
-      <CustomTypography>{aboutDescription[2]}</CustomTypography>
+      <div className='about-description-div'>{showDescription}</div>
     </Paper>
   );
 };

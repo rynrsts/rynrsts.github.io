@@ -10,6 +10,44 @@ const CustomTypography = styled(Typography)({
 });
 
 const ExperiencePaper = ({ duration, position, company, details }) => {
+  const showTechnologies = (technologies) =>
+    technologies &&
+    Object.keys(technologies).map((key) => (
+      <Chip
+        label={key}
+        color={technologies[key]}
+        variant='outlined'
+        sx={{ backgroundColor: '#F7F7F7' }}
+        key={key}
+      />
+    ));
+
+  const showProjects = (projects) =>
+    projects.length > 0 &&
+    projects.map((project, index) => (
+      <div key={index}>
+        <CustomTypography>
+          <span className='project-company'>{project.company}, </span>
+          <span className='project-position'>{project.position}</span>
+        </CustomTypography>
+        <div className='technologies-div'>
+          {showTechnologies(project.technologies)}
+        </div>
+      </div>
+    ));
+
+  const showDetails =
+    details.length > 0 &&
+    details.map((detail, index) =>
+      typeof detail === 'string' ? (
+        <CustomTypography key={index}>{detail}</CustomTypography>
+      ) : (
+        <div key={index} className='projects-div'>
+          {showProjects(detail.projects)}
+        </div>
+      )
+    );
+
   return (
     <Paper elevation={3} sx={{ padding: '24px' }}>
       <Typography
@@ -28,40 +66,7 @@ const ExperiencePaper = ({ duration, position, company, details }) => {
         {duration}
       </CustomTypography>
       <CustomTypography sx={{ marginTop: '24px' }}>{company}</CustomTypography>
-      {details.length > 0 &&
-        details.map((detail, index) =>
-          typeof detail === 'string' ? (
-            <CustomTypography key={index}>{detail}</CustomTypography>
-          ) : (
-            <div key={index} className='projects-div'>
-              {detail.projects.length > 0 &&
-                detail.projects.map((project, index) => (
-                  <div key={index}>
-                    <CustomTypography>
-                      <span className='project-company'>
-                        {project.company},{' '}
-                      </span>
-                      <span className='project-position'>
-                        {project.position}
-                      </span>
-                    </CustomTypography>
-                    <div className='technologies-div'>
-                      {project.technologies &&
-                        Object.keys(project.technologies).map((key) => (
-                          <Chip
-                            label={key}
-                            color={project.technologies[key]}
-                            variant='outlined'
-                            sx={{ backgroundColor: '#F7F7F7' }}
-                            key={key}
-                          />
-                        ))}
-                    </div>
-                  </div>
-                ))}
-            </div>
-          )
-        )}
+      {showDetails}
       <CustomTypography></CustomTypography>
     </Paper>
   );

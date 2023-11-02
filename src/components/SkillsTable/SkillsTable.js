@@ -18,34 +18,38 @@ const HeadTableCell = styled(TableCell)({
   fontSize: '1rem',
   fontWeight: '600',
   letterSpacing: '0.07em',
+  padding: '16px 24px',
 });
 
 const BodyTableCell = styled(TableCell)({
-  fontSize: '0.87rem',
+  fontSize: '0.93rem',
   letterSpacing: '0.07em',
+  padding: '16px 24px',
 });
 
 const SkillsTable = () => {
+  const showTechnology = (key) =>
+    Object.keys(technicalSkills[key]).map((skillKey) => (
+      <Chip
+        label={skillKey}
+        variant='outlined'
+        color={technicalSkills[key][skillKey]}
+        sx={{
+          fontSize: '0.87rem',
+          margin: '4px',
+          backgroundColor: '#F7F7F7',
+        }}
+        key={skillKey}
+      />
+    ));
+
   const showTechnicalSkills =
     technicalSkills &&
     Object.keys(technicalSkills).map((key) => (
       <TableRow key={key}>
         <BodyTableCell>{key}</BodyTableCell>
-        <BodyTableCell>
-          {technicalSkills[key] &&
-            Object.keys(technicalSkills[key]).map((skillKey) => (
-              <Chip
-                label={skillKey}
-                variant='outlined'
-                color={technicalSkills[key][skillKey]}
-                sx={{
-                  fontSize: '0.87rem',
-                  margin: '4px',
-                  backgroundColor: '#F7F7F7',
-                }}
-                key={skillKey}
-              />
-            ))}
+        <BodyTableCell sx={{ paddingLeft: '0' }}>
+          {showTechnology(key)}
         </BodyTableCell>
       </TableRow>
     ));
@@ -60,7 +64,7 @@ const SkillsTable = () => {
         <TableHead>
           <TableRow>
             <HeadTableCell>Area</HeadTableCell>
-            <HeadTableCell>Stack</HeadTableCell>
+            <HeadTableCell sx={{ paddingLeft: '0' }}>Stack</HeadTableCell>
           </TableRow>
         </TableHead>
         <TableBody>{showTechnicalSkills}</TableBody>

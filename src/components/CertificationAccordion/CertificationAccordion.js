@@ -26,11 +26,14 @@ const CertificationAccordion = () => {
           expandIcon={<ExpandMoreIcon />}
           aria-controls='panel1a-content'
           id='panel1a-header'
+          sx={{ padding: '8px 24px' }}
         >
           <CustomTypography>{value.title}</CustomTypography>
         </AccordionSummary>
         <AccordionDetails>
-          <CustomTypography sx={{ fontSize: '0.87rem', color: 'text.secondary' }}>
+          <CustomTypography
+            sx={{ fontSize: '0.87rem', color: 'text.secondary' }}
+          >
             {value.date}
           </CustomTypography>
           <CustomTypography sx={{ marginTop: '12px' }}>
@@ -47,7 +50,11 @@ const CertificationAccordion = () => {
               endIcon={<ArrowForwardIosIcon />}
               href={value.link}
               target='_blank'
-              sx={{ marginTop: '24px' }}
+              sx={{
+                fontSize: '1rem',
+                textTransform: 'none',
+                marginTop: '24px',
+              }}
             >
               Show Credential
             </Button>

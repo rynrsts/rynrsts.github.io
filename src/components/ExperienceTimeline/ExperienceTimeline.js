@@ -21,7 +21,7 @@ const ExperienceTimeline = () => {
           {index === 0 ? <TimelineDot color='success' /> : <TimelineDot />}
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>
+        <TimelineContent sx={{ padding: '0', paddingLeft: '16px' }}>
           <ExperiencePaper
             duration={experience.duration}
             position={experience.position}
@@ -38,6 +38,7 @@ const ExperienceTimeline = () => {
         sx={{
           maxWidth: '768px',
           marginTop: '64px',
+          padding: 0,
           [`& .${timelineItemClasses.root}:before`]: {
             flex: 0,
             padding: 0,

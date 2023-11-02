@@ -8,6 +8,12 @@ const CustomTypography = styled(Typography)({
 });
 
 const EducationTabPanel = ({ value, data, index }) => {
+  const showDetails =
+    data.details.length > 0 &&
+    data.details.map((detail, index) => (
+      <CustomTypography key={index}>{detail}</CustomTypography>
+    ));
+
   return (
     <div
       role='tabpanel'
@@ -30,10 +36,7 @@ const EducationTabPanel = ({ value, data, index }) => {
       <CustomTypography sx={{ marginTop: '24px' }}>
         {data.school}
       </CustomTypography>
-      {data.details.length > 0 &&
-        data.details.map((detail, index) => (
-          <CustomTypography key={index}>{detail}</CustomTypography>
-        ))}
+      {showDetails}
     </div>
   );
 };
