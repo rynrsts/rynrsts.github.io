@@ -14,8 +14,8 @@ const EducationTabs = () => {
       <Tab
         label={value.level}
         sx={{
-          fontSize: '16px',
-          letterSpacing: '1px',
+          fontSize: '1rem',
+          letterSpacing: '0.07em',
           textAlign: 'left',
           textTransform: 'none',
         }}

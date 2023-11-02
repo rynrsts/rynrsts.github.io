@@ -5,9 +5,9 @@ const SectionTitle = ({ title }) => {
   return (
     <Typography
       sx={{
-        fontSize: '32px',
+        fontSize: '2rem',
         fontWeight: '600',
-        letterSpacing: '1.4px',
+        letterSpacing: '0.07em',
         textAlign: 'center',
       }}
     >

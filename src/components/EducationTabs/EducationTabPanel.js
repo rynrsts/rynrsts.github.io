@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 const CustomTypography = styled(Typography)({
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
   marginTop: '12px',
 });
 
@@ -23,7 +23,7 @@ const EducationTabPanel = ({ value, data, index }) => {
       </CustomTypography>
       <CustomTypography
         color='text.secondary'
-        sx={{ fontSize: '14px', textAlign: 'center' }}
+        sx={{ fontSize: '0.87rem', textAlign: 'center' }}
       >
         {data.duration}
       </CustomTypography>

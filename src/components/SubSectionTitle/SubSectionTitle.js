@@ -5,9 +5,9 @@ const SubSectionTitle = ({ title, otherStyles }) => {
   return (
     <Typography
       sx={{
-        fontSize: '24px',
+        fontSize: '1.5rem',
         fontWeight: '600',
-        letterSpacing: '1.2px',
+        letterSpacing: '0.07em',
         textAlign: 'center',
         ...otherStyles,
       }}

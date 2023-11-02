@@ -4,7 +4,7 @@
 
 .header-hamburger div {
     height: 3px;
-    width: 30px;
+    width: 28px;
     background: var(--base-light-color);
     margin: 5px;
     transition: all 0.3s ease;

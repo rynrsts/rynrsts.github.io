@@ -35,7 +35,7 @@ export const Footer = () => {
           sx={{
             color: '#F7F7F7',
             textAlign: 'center',
-            letterSpacing: '1px',
+            letterSpacing: '0.07em',
             marginTop: '24px',
           }}
         >

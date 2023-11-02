@@ -14,7 +14,7 @@ import { styled } from '@mui/material/styles';
 import { Certifications as certifications } from 'utilities/certification';
 
 const CustomTypography = styled(Typography)({
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
 });
 
 const CertificationAccordion = () => {
@@ -30,7 +30,7 @@ const CertificationAccordion = () => {
           <CustomTypography>{value.title}</CustomTypography>
         </AccordionSummary>
         <AccordionDetails>
-          <CustomTypography sx={{ fontSize: '14px', color: 'text.secondary' }}>
+          <CustomTypography sx={{ fontSize: '0.87rem', color: 'text.secondary' }}>
             {value.date}
           </CustomTypography>
           <CustomTypography sx={{ marginTop: '12px' }}>

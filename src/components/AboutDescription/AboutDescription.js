@@ -5,7 +5,7 @@ import { styled } from '@mui/material/styles';
 import { AboutDescription as aboutDescription } from 'utilities/about';
 
 const CustomTypography = styled(Typography)({
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
   marginTop: '24px',
 });
 

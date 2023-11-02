@@ -5,7 +5,7 @@ import { styled } from '@mui/material/styles';
 import 'components/ExperienceTimeline/ExperiencePaper.css';
 
 const CustomTypography = styled(Typography)({
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
   marginTop: '12px',
 });
 
@@ -14,7 +14,7 @@ const ExperiencePaper = ({ duration, position, company, details }) => {
     <Paper elevation={3} sx={{ padding: '24px' }}>
       <Typography
         sx={{
-          letterSpacing: '1px',
+          letterSpacing: '0.07em',
           fontWeight: '600',
           textAlign: 'center',
         }}
@@ -23,7 +23,7 @@ const ExperiencePaper = ({ duration, position, company, details }) => {
       </Typography>
       <CustomTypography
         color='text.secondary'
-        sx={{ fontSize: '14px', textAlign: 'center' }}
+        sx={{ fontSize: '0.87rem', textAlign: 'center' }}
       >
         {duration}
       </CustomTypography>

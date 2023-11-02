@@ -15,14 +15,14 @@ import 'components/SkillsTable/SkillsTable.css';
 import { TechnicalSkills as technicalSkills } from 'utilities/about';
 
 const HeadTableCell = styled(TableCell)({
-  fontSize: '16px',
+  fontSize: '1rem',
   fontWeight: '600',
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
 });
 
 const BodyTableCell = styled(TableCell)({
-  fontSize: '14px',
-  letterSpacing: '1px',
+  fontSize: '0.87rem',
+  letterSpacing: '0.07em',
 });
 
 const SkillsTable = () => {
@@ -39,7 +39,7 @@ const SkillsTable = () => {
                 variant='outlined'
                 color={technicalSkills[key][skillKey]}
                 sx={{
-                  fontSize: '14px',
+                  fontSize: '0.87rem',
                   margin: '4px',
                   backgroundColor: '#F7F7F7',
                 }}

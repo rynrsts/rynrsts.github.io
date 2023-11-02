@@ -11,7 +11,7 @@ const Badges = () => {
         <Avatar
           alt={badge.alt}
           src={badge.image}
-          sx={{ height: '150px', width: '150px', cursor: 'pointer' }}
+          sx={{ height: '136px', width: '136px', cursor: 'pointer' }}
           onClick={() => window.open(badge.link, '_blank')}
         />
       </Tooltip>

@@ -8,7 +8,7 @@ import { HomeTypography as homeTypography } from 'utilities/data';
 const CustomTypography = styled(Typography)({
   color: '#F7F7F7',
   textAlign: 'center',
-  letterSpacing: '1px',
+  letterSpacing: '0.07em',
 });
 
 const Home = () => {
@@ -23,11 +23,15 @@ const Home = () => {
           justifyContent: 'center',
         }}
       >
-        <CustomTypography sx={{ fontSize: '24px', letterSpacing: '1.2px' }}>
+        <CustomTypography sx={{ fontSize: '1.5rem', letterSpacing: '0.07em' }}>
           {homeTypography.intro}
         </CustomTypography>
         <CustomTypography
-          sx={{ fontSize: '56px', letterSpacing: '2px', marginTop: '32px' }}
+          sx={{
+            fontSize: '3.5rem',
+            letterSpacing: '0.07em',
+            marginTop: '32px',
+          }}
         >
           {homeTypography.name}
         </CustomTypography>
