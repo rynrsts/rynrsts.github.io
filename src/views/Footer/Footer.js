@@ -1,8 +1,16 @@
 import React from 'react';
 import { Avatar, Container, Typography } from '@mui/material';
+import { styled } from '@mui/material/styles';
 
 import 'views/Footer/Footer.css';
 import { Contacts as contacts } from 'utilities/data';
+
+const CustomTypography = styled(Typography)({
+  color: '#F7F7F7',
+  textAlign: 'center',
+  letterSpacing: '0.07em',
+  marginTop: '24px',
+});
 
 export const Footer = () => {
   const date = new Date();
@@ -31,16 +39,12 @@ export const Footer = () => {
     <footer>
       <Container maxWidth='lg'>
         <div className='contacts-div'>{showAvatarIcons}</div>
-        <Typography
-          sx={{
-            color: '#F7F7F7',
-            textAlign: 'center',
-            letterSpacing: '0.07em',
-            marginTop: '24px',
-          }}
-        >
+        <CustomTypography>
           &copy; {year} Ryan Aristosa. All rights reserved.
-        </Typography>
+        </CustomTypography>
+        <CustomTypography sx={{ fontSize: '0.81rem' }}>
+          Last updated: 11/02/2023
+        </CustomTypography>
       </Container>
     </footer>
   );
