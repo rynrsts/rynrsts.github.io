@@ -3,10 +3,11 @@
 .home-div {
     height: 100vh;
     background-color: var(--base-dark-color);
+    position: relative;
 }
 
-.download-cv-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
+.home-absolute{
+    height: calc(100vh - 65px);
+    width: 100%;
+    position: absolute;
 }

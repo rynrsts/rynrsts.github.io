@@ -7,6 +7,7 @@ import 'components/ExperienceTimeline/ExperiencePaper.css';
 const CustomTypography = styled(Typography)({
   letterSpacing: '0.07em',
   marginTop: '12px',
+  textAlign: 'left',
 });
 
 const ExperiencePaper = ({ duration, position, company, details }) => {

@@ -48,7 +48,7 @@ const SkillsTable = () => {
     Object.keys(technicalSkills).map((key) => (
       <TableRow key={key}>
         <BodyTableCell>{key}</BodyTableCell>
-        <BodyTableCell sx={{ paddingLeft: '0' }}>
+        <BodyTableCell sx={{ paddingLeft: 0 }}>
           {showTechnology(key)}
         </BodyTableCell>
       </TableRow>
@@ -64,7 +64,7 @@ const SkillsTable = () => {
         <TableHead>
           <TableRow>
             <HeadTableCell>Area</HeadTableCell>
-            <HeadTableCell sx={{ paddingLeft: '0' }}>Stack</HeadTableCell>
+            <HeadTableCell sx={{ paddingLeft: 0 }}>Stack</HeadTableCell>
           </TableRow>
         </TableHead>
         <TableBody>{showTechnicalSkills}</TableBody>

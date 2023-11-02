@@ -15,7 +15,7 @@ const AboutDescription = () => {
     aboutDescription.length > 0 &&
     aboutDescription.map((description, index) =>
       index === 0 ? (
-        <CustomTypography sx={{ marginTop: '0' }} key={index}>
+        <CustomTypography sx={{ marginTop: 0 }} key={index}>
           {description}
         </CustomTypography>
       ) : (

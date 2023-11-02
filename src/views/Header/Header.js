@@ -30,14 +30,14 @@ const Header = () => {
       });
     });
 
-    observer.observe(document.getElementById('home-div'));
+    observer.observe(document.getElementById('home-absolute'));
   });
 
   return (
     <nav className='header-nav' id='header-nav'>
       <Container
         maxWidth='lg'
-        sx={{ height: '100%', display: 'flex', padding: '0' }}
+        sx={{ height: '100%', display: 'flex', padding: 0 }}
       >
         <div className='logo-container'>
           <Link href='https://rynrsts.github.io/'>

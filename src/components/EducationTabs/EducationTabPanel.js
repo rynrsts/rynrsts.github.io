@@ -23,7 +23,7 @@ const EducationTabPanel = ({ value, data, index }) => {
       className='education-tab-panel'
     >
       <CustomTypography
-        sx={{ textAlign: 'center', fontWeight: '600', marginTop: '0' }}
+        sx={{ textAlign: 'center', fontWeight: '600', marginTop: 0 }}
       >
         {data.course}
       </CustomTypography>

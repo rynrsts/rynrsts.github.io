@@ -13,7 +13,8 @@ const CustomTypography = styled(Typography)({
 
 const Home = () => {
   return (
-    <div className='home-div' id='home-div'>
+    <div className='home-div'>
+      <div className='home-absolute' id='home-absolute'></div>
       <Container
         maxWidth='lg'
         sx={{
