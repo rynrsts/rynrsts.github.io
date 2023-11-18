@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.27ac8c48.css",
-    "main.js": "/static/js/main.d2400eb2.js",
+    "main.css": "/static/css/main.b9857612.css",
+    "main.js": "/static/js/main.98b6460e.js",
     "static/media/aws-cloud-quest-cloud-practitioner.png": "/static/media/aws-cloud-quest-cloud-practitioner.17e20a12710f4ae62426.png",
     "static/media/microsoft-certified-associate-badge.svg": "/static/media/microsoft-certified-associate-badge.2b0771425bd47b49917ba320d033a2b7.svg",
     "index.html": "/index.html",
-    "main.27ac8c48.css.map": "/static/css/main.27ac8c48.css.map",
-    "main.d2400eb2.js.map": "/static/js/main.d2400eb2.js.map"
+    "main.b9857612.css.map": "/static/css/main.b9857612.css.map",
+    "main.98b6460e.js.map": "/static/js/main.98b6460e.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ac8c48.css",
-    "static/js/main.d2400eb2.js"
+    "static/css/main.b9857612.css",
+    "static/js/main.98b6460e.js"
   ]
 }
