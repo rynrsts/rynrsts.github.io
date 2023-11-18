@@ -1,0 +1,9 @@
+.education-div {
+    max-width: var(--mobile-size);
+    margin: auto;
+    margin-top: var(--base-size);
+}
+
+.education-tab-panel {
+    padding-top: var(--spacing-size);
+}

@@ -1,4 +1,13 @@
 :root {
+    /* Color */
     --base-dark-color: #303030;
     --base-light-color: #F7F7F7;
+
+    /* Font */
+    --font-bold: 700;
+
+    /* Size */
+    --spacing-size: 24px;
+    --mobile: 768px;
+    --base-size: 64px;
 }

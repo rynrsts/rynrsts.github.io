@@ -1,0 +1,12 @@
+.header-nav {
+    height: var(--base-size);
+    width: 100%;
+    background-color: var(--base-dark-color);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.header-box-shadow {
+    box-shadow: 0 8px var(--spacing-size) rgba(0, 0, 0, 0.15);
+}

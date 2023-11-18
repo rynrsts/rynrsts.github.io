@@ -1,0 +1,7 @@
+.logo-container {
+    height: 100%;
+    width: var(--base-size);
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}

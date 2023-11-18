@@ -1,11 +1,12 @@
 import React from 'react';
 
-import Header from 'views/Header/Header';
-import Home from 'views/Home/Home';
-import About from 'views/About/About';
-import Experience from 'views/Experience/Experience';
-import Education from 'views/Education/Education';
-import Footer from 'views/Footer/Footer';
+import 'Style.css';
+import Header from 'components/Header/Header';
+import Home from 'components/Home/Home';
+import About from 'components/About/About';
+import Experience from 'components/Experience/Experience';
+import Education from 'components/Education/Education';
+import Footer from 'components/Footer/Footer';
 
 function App() {
   return (

@@ -1,0 +1,20 @@
+
+
+.projects-div {
+    margin-left: var(--spacing-size);
+}
+
+.project-company {
+    font-weight: var(--font-bold);
+}
+
+.project-position {
+    font-style: italic;
+}
+
+.technologies-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}

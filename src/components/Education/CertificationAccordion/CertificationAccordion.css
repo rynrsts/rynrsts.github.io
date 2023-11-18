@@ -1,0 +1,4 @@
+.show-credential {
+    display: flex;
+    flex-direction: row-reverse;
+}

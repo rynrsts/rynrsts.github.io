@@ -1,0 +1,17 @@
+.home-div {
+    height: 100dvh;
+    position: relative;
+}
+
+.home-absolute {
+    height: calc(100dvh - 65px);
+    width: 100%;
+    position: absolute;
+}
+
+#tsparticles {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
