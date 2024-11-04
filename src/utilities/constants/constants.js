@@ -35,5 +35,5 @@ export const SubSectionTitles = {
 
 export const FooterText = {
   ALL_RIGHTS: 'Ryan Aristosa. All rights reserved.',
-  LAST_UPDATED_DATE: 'Last updated: 11/18/2023',
+  LAST_UPDATED_DATE: 'Last updated: 11/04/2024',
 };

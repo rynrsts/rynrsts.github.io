@@ -1,5 +1,22 @@
 export const Certifications = [
   {
+    title: 'Gihub copilot for java and basics of spring boot',
+    issuer: 'Udemy',
+    date: 'Issued on Mar 2024',
+    details: `Leverage Generative AI with GitHub Copilot to improve productivity and 
+      enhance code quality and maintainability for Spring Boot projects.`,
+    link: 'https://ude.my/UC-0e1ae9f5-6c25-4d51-8826-a8173ab9ea46',
+  },
+  {
+    title: 'Angular - The Complete Guide (2024 Edition)',
+    issuer: 'Udemy',
+    date: 'Issued on Feb 2024',
+    details: `This course tackles the entirety of Angular, including standalone components 
+      and signals, up to how to send HTTP requests, implement routing, authenticate users 
+      and handle complex forms.`,
+    link: 'https://ude.my/UC-4dc2b203-c252-4fe3-9b6a-b9bd6c961147',
+  },
+  {
     title: 'AWS Cloud Quest: Cloud Practitioner',
     issuer: 'Amazon Web Services',
     date: 'Issued on Jun 2022',

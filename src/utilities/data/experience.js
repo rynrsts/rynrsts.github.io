@@ -1,59 +1,76 @@
 export const Experiences = [
   {
-    duration: 'October 2022 - Present',
+    duration: 'January 2024 - Present',
     position: 'Jr. Software Engineer',
-    company: 'Cognizant Softvision',
+    company: 'Cognizant Philippines Studio',
     details: [
-      `Worked as a developer and consultant, building end-to-end solutions on web and 
-        software projects that adhere to the functional and technical requirements, and
-        coding standards.`,
+      `Transitioned from Cognizant Softvision to Cognizant Philippines Studio.`,
+      `Worked as a developer and consultant, delivering high-quality web applications 
+        and scalable end-to-end solutions that meet business requirements.`,
       {
         projects: [
           {
             company: 'Accounting Company',
             position: 'Developer',
             technologies: {
-              ReactJS: 'secondary',
+              Javascript: 'success',
+              Typescript: 'success',
+              React: 'secondary',
               Redux: 'secondary',
               'React Bootstrap': 'secondary',
               'Node.js': 'warning',
-              Fastify: 'warning',
-              Knex: 'warning',
+              Restify: 'warning',
               MSSQL: 'warning',
               Jest: 'primary',
-              Docker: 'primary',
-              Git: 'primary',
               Azure: 'primary',
+              Git: 'primary',
+              Docker: 'primary',
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    duration: 'October 2022 - December 2023',
+    position: 'Jr. Software Engineer',
+    company: 'Magenic Manila / Cognizant Softvision',
+    details: [
+      `Worked as a developer and consultant, delivering high-quality web applications 
+        and scalable end-to-end solutions that meet business requirements.`,
+      {
+        projects: [
+          {
+            company: 'Accounting Company',
+            position: 'Developer',
+            technologies: {
+              Javascript: 'success',
+              React: 'secondary',
+              Redux: 'secondary',
+              'React Bootstrap': 'secondary',
+              'Node.js': 'warning',
+              Restify: 'warning',
+              MSSQL: 'warning',
+              Jest: 'primary',
+              Azure: 'primary',
+              Git: 'primary',
+              Docker: 'primary',
             },
           },
           {
             company: 'Accounting Company',
             position: 'Developer',
             technologies: {
-              ReactJS: 'secondary',
+              Javascript: 'success',
+              React: 'secondary',
               MaterialUI: 'secondary',
               'Node.js': 'warning',
-              Restify: 'warning',
-              Knex: 'warning',
+              Fastify: 'warning',
               MSSQL: 'warning',
               Jest: 'primary',
-              Docker: 'primary',
-              Git: 'primary',
               Azure: 'primary',
-            },
-          },
-          {
-            company: 'CSV Bootcamp',
-            position: 'Trainee',
-            technologies: {
-              Java: 'success',
-              'Spring Boot': 'warning',
-              Hibernate: 'warning',
-              'Spring Security': 'warning',
-              PostgreSQL: 'warning',
-              JUnit: 'primary',
-              Docker: 'primary',
               Git: 'primary',
+              Docker: 'primary',
             },
           },
         ],

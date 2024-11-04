@@ -5,10 +5,16 @@ export const Education = [
     school: 'STI College Pasay-EDSA',
     duration: '2018 - August 2022',
     details: [
-      'GWA: 122',
-      `Awards: Magna Cum Laude, Best Research Abstract and Best Research Paper Presenter 
-      (4th Luminary Internation Conference), Best Capstone Project Awardee, Lead Programmer 
-      Awardee, President and Dean's Lister`,
+      {
+        prop: 'GWA',
+        value: '1.22',
+      },
+      {
+        prop: 'Awards',
+        value: `Magna Cum Laude, Best Research Abstract and Best Research Paper Presenter 
+          (4th Luminary International Conference), Best Capstone Project Awardee, Lead 
+          Programmer Awardee, President and Dean's Lister`,
+      },
     ],
   },
   {
@@ -20,7 +26,10 @@ export const Education = [
       `Senior High, Technical Vocational Livelihood (TVL) Teack | Information & 
       Communications Technology`,
       'Computer Programming - Java & .NET Technology',
-      'Awards: With Honors',
+      {
+        prop: 'Awards',
+        value: 'With Honors',
+      },
     ],
   },
 ];

@@ -19,7 +19,16 @@ const EducationTabPanel = ({ value, data, index }) => {
   const showDetails =
     data.details.length > 0 &&
     data.details.map((detail, index) => (
-      <CustomTypography key={index}>{detail}</CustomTypography>
+      <CustomTypography key={index}>
+        {typeof detail === 'object' ? (
+          <>
+            <span style={{ fontWeight: 'bold' }}>{detail.prop}: </span>
+            <span>{detail.value}</span>
+          </>
+        ) : (
+          detail
+        )}
+      </CustomTypography>
     ));
 
   return (
